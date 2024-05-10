@@ -1,0 +1,109 @@
+*{ 
+ margin:0;
+padding: 0;
+border: none;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.headr{
+    width: 100%;
+    background-color: brown;
+
+}
+.logo{
+    width: 160px;
+    height: 80px;
+    cursor: pointer;
+}
+.top{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    z-index: 1;
+    background-color: brown;
+    letter-spacing: 2px;
+   
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: aliceblue;
+}
+
+.right a{
+    color: aliceblue;
+    margin: 10px;
+}
+#home{
+    margin: 5% 0 0 0;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/Arcaxi_Amenaphrkicheh-58149-hayBlog.jpg');
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    animation: img 30s infinite linear;
+  
+
+}
+
+@keyframes img {
+    0%,100%{
+    background-image: url('./img/Arcaxi_Amenaphrkicheh-58149-hayBlog.jpg');
+
+    }
+    25%{
+        background-image: url('./img/143715_555_343.jpg');
+    }
+    50%{
+        background-image: url('./img/186f3fbaaa6766fd1749dc260df0c890_M.jpg');
+    
+
+    }
+    75%{
+        background-image: url('./img/timthumb.jpg');
+    }
+    
+}
+#about{
+    background-color: rgb(159,226, 237);
+}
+
+.dadivanq,.shushi,.amaras{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 20px;
+    
+}
+
+#about img{
+    width: 800px;
+    margin-top: 2%;
+}
+span{
+    font-size: 20px;
+    color: #0084ff;
+    margin: 5px;
+}
+
+p{
+    margin: 20px;
+    letter-spacing: 2px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:rgb(252, 201, 106) ;
+}
