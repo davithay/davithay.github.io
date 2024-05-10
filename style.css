@@ -107,3 +107,44 @@ footer{
     height: 200px;
     background-color:rgb(252, 201, 106) ;
 }
+
+@media (max-width:1400px) {
+    .section img{
+        max-width:1400px;
+    }
+}
+@media (max-width:1050px) {
+    .dadivanq,.shushi,.amaras{
+        display: block;
+    }
+    #home{
+        max-width:1050px;
+    }
+}
+
+@media(max-width:850px) {
+    h1{
+        font-size: 25px;
+    }
+    #home{
+        max-width: 850px;
+    }
+    .top a{
+        display: block;
+    }
+    #about img{
+        width: 500px;
+    }
+}
+
+@media(max-width:500px) {
+    h1{
+        font-size: 20px;
+    }
+    #home{
+        max-width: 500px;
+    }
+    #about img{
+        width: 300px;
+    }
+}
